@@ -1,0 +1,8 @@
+<button (click)="count = count * count">x^2</button>
+<div>
+  <button (click)="count = count + 1">x+1</button>
+  <button (click)="count = 0">{{count}}</button>
+  <button (click)="count = count - 1">x-1</button>
+</div>
+<button (click)="count = count = sqrt(count)">sqrt(x)</button>
+<ng-content></ng-content>
